@@ -9,11 +9,12 @@ import { Dados } from '../alunodados';
 export class CadastroComponent implements OnInit {
   alunodados: Dados = {
     nome: 'Rafael',
+    RA: 123,
     idade: 28,
     sexo: 'masculino',
-    RA: 123,
-    turma: 'ADS matutino'
+    turma: 'ADS'
   };
+    
   constructor() { }
 
   ngOnInit(): void {

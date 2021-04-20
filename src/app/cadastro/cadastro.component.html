@@ -1,19 +1,30 @@
-<h2>{{alunodados.nome}}</h2>
 
+<h2><strong>{{alunodados.nome | uppercase}}</strong></h2>
 <div>
-  <span>Nome: </span> <input type="text">
+  <label for="nome">Nome do estudante : </label>
+  <input type="text" id="nome" [(ngModel)]="alunodados.nome" placeholder="name">
 </div>
 <div>
-  <span>RA: </span> <input type="number">
+  <label for="RA">RA : </label>
+  <input type="number" id="RA" [(ngModel)]="alunodados.RA" placeholder="RA">
 </div>
 <div>
-  <span>idade: </span> <input type="number">
+  <label for="idade">Idade : </label>
+  <input type="number" id="idade" [(ngModel)]="alunodados.idade" placeholder="idade">
 </div>
 <div>
-  <span>sexo:  </span> <input type="text">
+  <label for="sexo">Sexo : </label>
+  <input type="text" id="sexo" [(ngModel)]="alunodados.sexo" placeholder="sexo">
 </div>
 <div>
-  <span>turma: </span> <input type="text"></div>
+  <label for="turma">Turma : </label>
+  <input type="text" id="turma" [(ngModel)]="alunodados.turma" placeholder="turma">
+</div>
+
+
+
+
+
 
 
 
