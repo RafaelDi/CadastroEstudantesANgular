@@ -10,7 +10,8 @@ import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
     CadastroComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
