@@ -1,24 +1,53 @@
+<h1>Cadastro de estudantes</h1>
 
-<h2><strong>{{alunodados.nome | uppercase}}</strong></h2>
-<div>
-  <label for="nome">Nome do estudante : </label>
-  <input type="text" id="nome" [(ngModel)]="alunodados.nome" placeholder="name">
-</div>
-<div>
-  <label for="RA">RA : </label>
-  <input type="number" id="RA" [(ngModel)]="alunodados.RA" placeholder="RA">
-</div>
-<div>
-  <label for="idade">Idade : </label>
-  <input type="number" id="idade" [(ngModel)]="alunodados.idade" placeholder="idade">
-</div>
-<div>
-  <label for="sexo">Sexo : </label>
-  <input type="text" id="sexo" [(ngModel)]="alunodados.sexo" placeholder="sexo">
-</div>
-<div>
-  <label for="turma">Turma : </label>
-  <input type="text" id="turma" [(ngModel)]="alunodados.turma" placeholder="turma">
+<div class="container">
+  
+  <h2>{{alunodados.nome | uppercase}}</h2>
+
+  <div class="row">
+    <div class="column-3 column label">
+      <strong><label for="nome">Nome : </label></strong>
+    </div>
+    <div class="column-9 column input">
+      <input type="text" id="nome" [(ngModel)]="alunodados.nome" placeholder="name">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column-3 column label">
+      <strong><label for="RA">RA : </label></strong>
+    </div>
+    <div class="column-9 column input">
+      <input type="number" id="RA" [(ngModel)]="alunodados.RA" placeholder="RA">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column-3 column label">
+      <strong><label for="idade">Idade : </label></strong>
+    </div>
+    <div class="column-9 column input">
+      <input type="number" id="idade" [(ngModel)]="alunodados.idade" placeholder="idade">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column-3 column label">
+      <strong><label for="sexo">Sexo : </label></strong>
+    </div>
+    <div class="column-9 column input">
+      <input type="text" id="sexo" [(ngModel)]="alunodados.sexo" placeholder="sexo">
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="column-3 column label">
+      <strong><label for="turma">Turma : </label></strong>
+    </div>
+    <div class="column-9 column input">
+      <input type="text" id="turma" [(ngModel)]="alunodados.turma" placeholder="turma">
+    </div>
+  </div>
 </div>
 
 
