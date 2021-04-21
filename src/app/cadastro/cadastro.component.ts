@@ -8,11 +8,11 @@ import { Dados } from '../alunodados';
 })
 export class CadastroComponent implements OnInit {
   alunodados: Dados = {
-    nome: 'Rafael',
-    RA: 123,
-    idade: 28,
+    nome: 'digite seu nome',
+    RA: 0,
+    idade: 0,
     sexo: 'masculino',
-    turma: 'ADS'
+    turma: 'nome do curso'
   };
     
   constructor() { }
