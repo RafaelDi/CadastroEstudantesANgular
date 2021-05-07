@@ -68,8 +68,12 @@ button{
     border-radius: 6px;
     background-color: gray;
     font-size: 18px;
-    color: blue;
-    
+    color: blue; 
 }
+
+h2{
+    color: red;
+}
+
 
 

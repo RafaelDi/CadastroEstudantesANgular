@@ -55,8 +55,21 @@
     <button type="button" class="btn btn-success">Cadastrar</button>
   </div>
   
-  
 </div>
+
+
+  <section>
+    <div class="alunos">
+    <h2>Alunos Cadastrados</h2>
+    <ul class="Cadastrados">
+      <div *ngFor ="let alunodados of cadastros" class="curso-nome">
+        <span class="badge"><strong>{{alunodados.turma}}</strong> -
+       {{alunodados.nome}}</span>
+      </div>
+    </ul>
+  </div>
+  </section>
+
 
 
 
